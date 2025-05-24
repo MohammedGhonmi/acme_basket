@@ -1,5 +1,4 @@
 class Basket
-
   def initialize(product_catalogue:)
     @catalogue = product_catalogue
     @items = []
