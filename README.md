@@ -17,13 +17,16 @@ Run the script:
 
 ```bash
 ruby spec/basket_spec.rb
+```
 
 Expected Output:
 
+```text
 Basket: B01, G01 => Total: $37.85
 Basket: R01, R01 => Total: $54.37
 Basket: R01, G01 => Total: $60.85
 Basket: B01, B01, R01, R01, R01 => Total: $98.27
+```
 
 Assumptions Made
 - The system is in-memory only — no DB or Rails.
